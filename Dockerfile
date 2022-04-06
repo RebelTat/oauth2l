@@ -28,7 +28,7 @@ RUN make build
 # This is intentionally alpine instead of distroless so users can mount this as
 # part of a build step or run custom commands without needing to build their own
 # container image.
-FROM alpine:latest
+FROM alpine:3.15.4
 RUN apk --no-cache add ca-certificates && \
   update-ca-certificates
 RUN apk --no-cache add curl
