@@ -12,7 +12,7 @@ github.com/golang/protobuf/ptypes/timestamp
 github.com/jessevdk/go-flags
 # github.com/wora/protorpc v0.0.0-20180730014223-ae9256a051d8
 github.com/wora/protorpc/client
-# golang.org/x/net v0.0.0-20191112182307-2180aed22343
+# golang.org/x/net v0.7.0
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
@@ -23,9 +23,9 @@ golang.org/x/net/internal/timeseries
 golang.org/x/net/trace
 # golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 golang.org/x/oauth2/jws
-# golang.org/x/sys v0.0.0-20191113165036-4c7a9d0fe056
+# golang.org/x/sys v0.5.0
 golang.org/x/sys/unix
-# golang.org/x/text v0.3.2
+# golang.org/x/text v0.7.0
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
